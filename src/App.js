@@ -1,25 +1,28 @@
 import logo from './logo.svg';
-import './App.css';
+import Forgot from './Components/ForgotPassword.js';
+import SignupForm from './Components/Signup.js';
+import Login from './Components/Login.js';
+import PasswordChanged from './Components/PasswordChanged.js';
+import Scan from './Components/Scan.js';
+import PasswordReset from './Components/Newpassword.js';
+import CreateEvent from './Components/CreateEvent.js';
+import Form from './form.js';
+import Users from './Components/User1.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function App(){
+    return (
+        <>
+            
+<Users/>
+
+             
+             
+             
+            
+        </>
+    );
 }
 
 export default App;
